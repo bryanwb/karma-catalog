@@ -1,0 +1,33 @@
+{
+    "name": "com.github.tlrobinson.narwhal",
+    "type": "sea",
+    "origin": {
+        "locate": "http://github.com/cadorn/narwhal/raw/master/catalog.json"
+    },
+    "packages": {
+        "narwhal": [
+            ["source", {
+                "locate": "file://./",
+                "package": "narwhal",
+                "revision": "latest"
+            }],
+            ["latest", {
+                "locate": "http://github.com/tlrobinson/narwhal/zipball/master/",
+                "package": "narwhal",
+                "revision": "master"
+            }]
+        ],
+        "template": [
+            ["source", {
+                "locate": "git://github.com/gmosx/template.git",
+                "package": "template",
+                "revision": "master"
+            }],
+            ["latest", {
+                "locate": "http://github.com/gmosx/template/zipball/master/",
+                "package": "template",
+                "revision": "master"
+            }]
+        ]
+    }
+}

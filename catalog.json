@@ -1,0 +1,23 @@
+{
+    "name": "com.github.bryanwb.karma-catalog",
+    "type": "sea",
+    "origin": {
+        "locate": "http://github.com/bryanwb/karma-catalog/raw/master/catalog.json"
+    },
+    "packages": {
+        "narwhal": [
+            ["source", {
+                "locate": "file://./",
+                "package": "narwhal",
+                "revision": "latest"
+            }],
+            ["latest", {
+                "locate": "http://github.com/tlrobinson/narwhal/zipball/master/",
+                "package": "narwhal",
+                "revision": "master"
+            }]
+        ],
+	
+        
+    }
+}
