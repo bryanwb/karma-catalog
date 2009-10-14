@@ -1,23 +1,36 @@
 {
-    "name": "com.github.bryanwb.karma-catalog",
+    "name": "catsea",
     "type": "sea",
-    "origin": {
-        "locate": "http://github.com/bryanwb/karma-catalog/raw/master/catalog.json"
-    },
     "packages": {
-        "narwhal": [
-            ["source", {
-                "locate": "file://./",
-                "package": "narwhal",
-                "revision": "latest"
-            }],
-            ["latest", {
-                "locate": "http://github.com/tlrobinson/narwhal/zipball/master/",
-                "package": "narwhal",
-                "revision": "master"
-            }]
+        "karma-english-basicsounds": [
+            [
+                "latest",
+                {
+                    "locate": "http://github.com/bryanwb/karma-english-basicsounds1/zipball/master",
+                    "revision": "latest",
+                    "package": "karma-english-basicsounds"
+                }
+            ]
         ],
-	
-        
+        "karma-epaath-framework": [
+            [
+                "latest",
+                {
+                    "locate": "http://github.com/bryanwb/karma-epaath-framework/zipball/master",
+                    "revision": "latest",
+                    "package": "karma-epaath-framework"
+                }
+            ]
+        ],
+        "karma-maths-addition2": [
+            [
+                "latest",
+                {
+                    "locate": "http://github.com/bryanwb/karma-maths-addition2/zipball/master",
+                    "revision": "latest",
+                    "package": "karma-maths-addition2"
+                }
+            ]
+        ]
     }
 }
